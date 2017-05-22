@@ -5,9 +5,9 @@ import time
 import xmlrpclib
 import base64
 
-SATELLITE_URL = "http://sesklpsat01.astrazeneca.net/rpc/api"
-SATELLITE_LOGIN = "t3admin"
-SATELLITE_PASSWORD = base64.b64decode("eTVAMWZ0Yg==")
+SATELLITE_URL = "http://satellite.example.com/rpc/api"
+SATELLITE_LOGIN = "satellite username"
+SATELLITE_PASSWORD = base64.b64decode("encoded password")
 
 groupname = raw_input("Enter the group name you want to create:\n")
 systemslist = raw_input("Enter the filename having systems list:\n")
